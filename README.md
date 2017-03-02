@@ -14,6 +14,10 @@ virtualenv starterbot
 
 source starterbot/bin/activate
 
+git clone https://github.com/ryanohoro/slack-metabot.git
+
+cd slack-metabot
+
 pip install -r requirements.txt
 ```
 
