@@ -32,7 +32,7 @@ Capture the API token and customize your bot.
 Set the bot's token in your script environment:
 
 ```
-set SLACK_BOT_TOKEN xoxb-148375115045-zoDMcKWN6gRVS5tm7EyUphNo
+export SLACK_BOT_TOKEN=xoxb-148375115045-zoDMcKWN6gRVS5tm7EyUphNo
 ```
 
 You'll need your bot's ID value. Run the following code, then set the bot ID in your script environment.
@@ -40,7 +40,7 @@ You'll need your bot's ID value. Run the following code, then set the bot ID in 
 https://github.com/mattmakai/slack-starterbot/blob/master/print_bot_id.py
 
 ```
-set SLACK_BOT_ID U1CA99M5C
+export SLACK_BOT_ID=U1CA99M5C
 ```
 
 Then spin up the bot.
