@@ -1,0 +1,4 @@
+geocoder==1.20.1
+requests==2.12.3
+slackclient==1.0.5
+Pillow==4.0.0
