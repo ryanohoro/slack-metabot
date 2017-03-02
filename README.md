@@ -47,7 +47,18 @@ Then spin up the bot.
 
 ```
 python slack-metabot.py
+```
 
+You should then invite your bot to whichever channels you want to monitor from Slack.
+
+```
+/invite @metabot
+```
+
+To log what the bot does, set -v (verbosity) and redirect stdout to a file.
+
+```
+python slack-metabot.py > /var/log/slack-metabot.log &
 ```
 
 
