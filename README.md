@@ -10,9 +10,9 @@ Slack-metabot targets Python 2.7 and requires slackclient, requests, geocoder an
 Configure the script environment.
 
 ```
-virtualenv starterbot
+virtualenv metabot
 
-source starterbot/bin/activate
+source metabot/bin/activate
 
 git clone https://github.com/ryanohoro/slack-metabot.git
 
